@@ -1,4 +1,7 @@
 import Vue from 'vue'
+import VueCharts from 'vue-chartjs'
+
+Vue.component('sales-this-week', require('./components/SalesThisWeek.vue'));
 
 new Vue({
   el: '#app'
