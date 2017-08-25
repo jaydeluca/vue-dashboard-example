@@ -4,7 +4,7 @@
 - Vue
 - Bulma
 
-Installation:
+### Installation:
 ```
 npm install
 npm run production

@@ -7,9 +7,9 @@
         </template>
         <template v-else>
             <p class="control">
-                <input type="text" class="input is-small">
+                <input type="text" class="input is-small" v-model="searchTerm">
             </p>
-            <button class="button is-small">Search</button>
+            <button class="button is-small" @click="searchTerm=''">Search</button>
             <button class="button is-small" @click="searching=false">
                 <span class="icon">
                     <i class="fa fa-times-circle" aria-hidden="true"></i>
@@ -20,14 +20,13 @@
 </template>
 
 <script>
-
   export default {
     name: 'SearchBar',
     data() {
       return {
-        searching: false
+        searching: false,
+        searchTerm: ''
       }
     }
   }
-
 </script>
