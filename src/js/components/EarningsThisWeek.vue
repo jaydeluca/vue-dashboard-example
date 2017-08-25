@@ -9,7 +9,7 @@
   import LineChart from './LineChart'
 
   export default {
-    name: 'SalesChart',
+    name: 'EarningsChart',
     components: {LineChart},
     data() {
       return {
@@ -17,8 +17,8 @@
           labels: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
           datasets: [
             {
-              label: 'Sales This Week',
-              backgroundColor: '#d1e7fc',
+              label: 'Earnings This Week',
+              backgroundColor: '#e6f3d9',
               data: [40, 39, 10, 40, 39, 80, 40]
             }
           ]
