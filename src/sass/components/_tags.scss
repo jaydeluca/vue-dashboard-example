@@ -1,0 +1,24 @@
+.tag {
+  padding: 15px 20px !important;
+  font-weight: 600;
+  i {
+    font-size: 15px;
+    padding-right: 10px;
+  }
+
+  &.is-info {
+    background-color: $light-blue;
+    color: $dark-blue;
+  }
+
+  &.is-twitter {
+    background-color: #e1f2fa;
+    color: $dark-blue;
+  }
+
+  &.is-success {
+    background-color: lighten($green, 10);
+    color: darken($green, 30);
+  }
+
+}

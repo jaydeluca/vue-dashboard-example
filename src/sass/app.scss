@@ -6,9 +6,14 @@
 @import "node_modules/bulma/sass/grid/all";
 @import "node_modules/bulma/sass/layout/all";
 
+// Variables
+@import "components/variables";
+
+// Custom
 @import "components/layout";
 @import "components/utilities";
 @import "components/icons";
 @import "components/text";
 @import "components/charts";
 @import "components/colors";
+@import "components/tags";

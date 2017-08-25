@@ -1,7 +1,15 @@
 .is-green {
-  color: #9ecc67;
+  color: $green;
 }
 
 .is-red {
-  color: #db726f;
+  color: $red;
+}
+
+.is-blue {
+  color: $blue;
+}
+
+.is-light-blue {
+  color: $light-blue;
 }
