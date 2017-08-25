@@ -4,9 +4,7 @@
                     :options="options"
                     css-classes="chart">
         </line-chart>
-
         <chart-metrics :metrics="metrics"></chart-metrics>
-
     </div>
 </template>
 
@@ -21,16 +19,16 @@
       return {
         metrics: {
           month: {
-            total: 720,
-            delta: 16
+            total: '$6,540',
+            delta: 4
           },
           week: {
-            total: 160,
-            delta: -3
+            total: '$1,525',
+            delta: -7
           },
           average: {
-            total: 160,
-            delta: 9
+            total: '$9,352',
+            delta: 35
           }
         },
         chartData: {
@@ -39,7 +37,7 @@
             {
               label: 'Earnings This Week',
               backgroundColor: '#e6f3d9',
-              data: [40, 39, 10, 40, 39, 80, 40]
+              data: [220, 170, 200, 230, 300, 200, 400]
             }
           ]
         },
