@@ -14,7 +14,7 @@
                 This week
             </p>
             <p class="is-bold is-size-5 is-marginless">
-                160
+                {{ metrics.week.total }}
             </p>
             <percentage :delta="metrics.week.delta"></percentage>
         </div>
@@ -23,7 +23,7 @@
                 Average
             </p>
             <p class="is-bold is-size-5 is-marginless">
-                24.3
+                {{ metrics.average.total }}
             </p>
             <percentage :delta="metrics.average.delta"></percentage>
         </div>
