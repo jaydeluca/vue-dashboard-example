@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vue Dashboard Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/dist/app.css">
+</head>
+<body>
+
+<nav class="nav is-dark has-shadow is-hidden-tablet" id="top">
+    <div class="container">
+        <div class="nav-left">
+        </div>
+        <span class="nav-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </span>
+        <div class="nav-right nav-menu is-hidden-tablet">
+            <a class="nav-item is-tab is-active">
+                Dashboard
+            </a>
+            <a class="nav-item is-tab">
+                Other Link
+            </a>
+        </div>
+    </div>
+</nav>
+<div class="columns">
+    <aside class="column is-2 aside hero is-fullheight is-hidden-mobile">
+        <div>
+            <div class="profile has-text-centered">
+                <img src="images/profile.png">
+                <div>
+                    <span class="icon">
+                        <i class="fa fa-tint" aria-hidden="true"></i>
+                    </span>
+                    <span class="icon">
+                        <i class="fa fa-file-image-o" aria-hidden="true"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="main">
+                <a href="#" class="item active">
+                    <span class="icon">
+                        <i class="fa fa-coffee" aria-hidden="true"></i>
+                    </span>
+                    <span class="name">Dashboard</span>
+                </a>
+
+                <div class="title margin-top" style="margin: 20px 0 0 0;">
+                    User
+                </div>
+                <a href="#" class="item">
+                    <span class="icon">
+                        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    </span>
+                    <span class="name">Profile</span>
+                </a>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content area -->
+    <div class="content column is-10">
+        <div class="container">
+            <span class="icon margin-right">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </span>
+            <span class="icon margin-left">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            </span>
+
+        </div>
+        <div class="columns files">
+
+        </div>
+    </div>
+
+</div>
+<script async type="text/javascript" src="dist/app.js"></script>
+
+</body>
+</html>

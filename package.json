@@ -1,0 +1,22 @@
+{
+  "name": "vue-dashboard",
+  "description": "Vue Admin Dashboard example",
+  "license": "MIT",
+  "author": {
+    "name": "Jay DeLuca",
+    "email": "jaydeluca4@gmail.com"
+  },
+  "scripts": {
+    "dev": "NODE_ENV=development webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "dependencies": {
+    "bulma": "^0.5.1",
+    "vue": "^2.4.2"
+  },
+  "devDependencies": {
+    "laravel-mix": "^1.4.2"
+  }
+}
