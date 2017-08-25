@@ -9,7 +9,26 @@
 }
 
 .subheading {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
   @media (max-width: 1050px) {
     font-size: 14px;
   }
+}
+
+.percent {
+  @extend .is-green;
+
+  font-size: 12px;
+  i {
+    font-size: 16px !important;
+  }
+}
+
+
+// Utilities
+
+.is-bold {
+  font-weight: 800;
 }
