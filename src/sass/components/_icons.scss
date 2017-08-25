@@ -1,4 +1,8 @@
 .icon-heading {
   font-size: 45px;
   color: #ecedee;
+
+  @media (max-width: 1050px) {
+    font-size: 30px;
+  }
 }
